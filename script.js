@@ -1,8 +1,11 @@
-const helloworld = (nome="0") => {
-    let calcular = `  ${nome} são numeros numericos?!`; 
-    return calcular;
+
+const listadepresença = (nome) => {
+    if (nome.length < 7) {
+        return "minimo 7 caracteres!";
+    }else if (nome. length >= 7) {
+        return "seu nome esta lista!";
+    }else {
+        return"nome invalido";
+    }
 }
-    console.log(helloworld("8"))
-    console.log(helloworld("10"))
-    console.log(helloworld("13")) 
-    console.log(helloworld())
+ console.log(listadepresença("geovana"))
