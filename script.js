@@ -1,7 +1,8 @@
-const helloworld = (nome="visitante") => {
-    let frase = `olá', ${nome} ! `;
-    return frase;
+const helloworld = (nome="0") => {
+    let calcular = `  ${nome} são numeros numericos?!`; 
+    return calcular;
 }
-    console.log(helloworld("geovana"))
-    console.log(helloworld("ada maria"))
-    console.log(helloworld("fernanda"))
+    console.log(helloworld("8"))
+    console.log(helloworld("10"))
+    console.log(helloworld("13")) 
+    console.log(helloworld())
